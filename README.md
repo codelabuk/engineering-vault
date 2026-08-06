@@ -1,4 +1,4 @@
-# Data Platform Interview Prep Vault
+# Distributed Systems & Fundamentals Vault
 
 A curated reference of resources for data platform / distributed systems engineering interviews — LLD, HLD, storage internals (ClickHouse, Delta Lake, Iceberg), streaming (Kafka, Flink), infra, cloud (AWS/Azure), and more.
 
