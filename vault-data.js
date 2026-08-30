@@ -95,7 +95,7 @@ window.VAULT_CATEGORIES = [
         ]
       },
       {
-        "subtitle": "OLTP Relational Database Design — ER modeling, normalization, Postgres at scale",
+        "subtitle": "OLTP Relational Database Design — ER modeling, normalization, Postgres at scale ⭐ new (Aurora PostgreSQL interview focus, LSEG/FTSE Russell JD)",
         "items": [
           {
             "text": "freeCodeCamp — Learn Relational Database Design (6-hr full course): SQL fundamentals, ER modeling, normalization 1NF-BCNF, data types/constraints, indexing, query optimization; based on Grokking Relational Database Design",
@@ -191,8 +191,58 @@ window.VAULT_CATEGORIES = [
         ]
       },
       {
-        "subtitle": "Python — decorators, generators, context managers, asyncio, typing",
+        "subtitle": "Python — OOP, decorators, generators, context managers ⭐ Corey Schafer series (LSEG JD: craftsmanship focus)",
         "items": [
+          {
+            "text": "Corey Schafer — Python OOP 1: Classes and Instances",
+            "url": "https://youtu.be/ZDa-Z5JzLYM",
+            "added": true
+          },
+          {
+            "text": "Corey Schafer — Python OOP 2: Class Variables",
+            "url": "https://youtu.be/BJ-VvGyQxho",
+            "added": true
+          },
+          {
+            "text": "Corey Schafer — Python OOP 3: classmethods and staticmethods",
+            "url": "https://youtu.be/rq8cL2XMM5M",
+            "added": true
+          },
+          {
+            "text": "Corey Schafer — Python OOP 4: Inheritance - Creating Subclasses",
+            "url": "https://youtu.be/RSl87lqOXDE",
+            "added": true
+          },
+          {
+            "text": "Corey Schafer — Python OOP 5: Special (Magic/Dunder) Methods",
+            "url": "https://youtu.be/3ohzBxoFHAY",
+            "added": true
+          },
+          {
+            "text": "Corey Schafer — Python OOP 6: Property Decorators - Getters, Setters, and Deleters",
+            "url": "https://youtu.be/jCzT9XFZ5bw",
+            "added": true
+          },
+          {
+            "text": "Corey Schafer — Python Tutorial: Generators - How to use them and the benefits you receive",
+            "url": "https://www.youtube.com/watch?v=bD05uGo_sVI",
+            "added": true
+          },
+          {
+            "text": "Corey Schafer — Python Tutorial: Decorators - Dynamically Alter The Functionality Of Your Functions (search his channel if this exact link goes stale — title confirmed, exact ID unverified)",
+            "url": "https://www.youtube.com/@coreyms/search?query=decorators",
+            "added": true
+          },
+          {
+            "text": "Corey Schafer — Python Tutorial: Unit Testing Your Code with the unittest Module (concepts transfer to pytest — see pytest section below for the JD's actual tool)",
+            "url": "https://www.youtube.com/watch?v=6tNS--WetLI",
+            "added": true
+          },
+          {
+            "text": "Corey Schafer — full channel/playlists (search here for Context Managers, *args/**kwargs, and other individual topic videos)",
+            "url": "https://www.youtube.com/@coreyms/playlists",
+            "added": true
+          },
           {
             "text": "Advanced Python: generators, decorators, context managers, and asyncio — one consolidated walkthrough",
             "url": "https://medium.com/@rohteemie/advanced-python-exploring-generators-decorators-context-managers-and-asynchronous-programming-6fc434717a65"
@@ -208,6 +258,81 @@ window.VAULT_CATEGORIES = [
           {
             "text": "Deep dive: decorators and context managers combined — closures, higher-order functions, cross-cutting concerns",
             "url": "https://medium.com/weekly-python/a-deep-dive-into-pythons-decorators-and-context-managers-75ba9b13d760"
+          }
+        ]
+      },
+      {
+        "subtitle": "Python — Type Hints & mypy ⭐ new (LSEG JD: \"type hints\" named explicitly in essential bar)",
+        "items": [
+          {
+            "text": "Real Python — Python Type Checking (Guide): full tutorial from basic annotations to Protocol/TypedDict/Generics, with mypy integration",
+            "url": "https://realpython.com/python-type-checking/",
+            "added": true
+          },
+          {
+            "text": "Real Python — Type Checking best practices: gradual adoption strategy, precise types over Any, static checker workflow (mypy/pyright/ty)",
+            "url": "https://realpython.com/ref/best-practices/type-checking/",
+            "added": true
+          },
+          {
+            "text": "mypy official docs — the reference static type checker; install and run against an existing codebase",
+            "url": "https://mypy.readthedocs.io/",
+            "added": true
+          },
+          {
+            "text": "Python official docs — typing module: canonical spec for type hints (Union, Optional, Generic, Protocol, TypedDict)",
+            "url": "https://docs.python.org/3/library/typing.html",
+            "added": true
+          }
+        ]
+      },
+      {
+        "subtitle": "Python — pytest ⭐ new (LSEG JD: \"strong pytest discipline\" named explicitly in essential bar)",
+        "items": [
+          {
+            "text": "Real Python — pytest Tutorial: Effective Python Testing: fixtures, parametrize, marks, plugins, assertion introspection — the canonical pytest walkthrough",
+            "url": "https://realpython.com/pytest-python-testing/",
+            "added": true
+          },
+          {
+            "text": "Video — Pytest Tutorial: Complete Pytest Crash Course In Under 6 Hours (In-Depth)",
+            "url": "https://www.youtube.com/watch?v=KZstMSOHIvQ",
+            "added": true
+          },
+          {
+            "text": "Video — pytest Framework Full Course Tutorial playlist",
+            "url": "https://www.youtube.com/playlist?list=PLZMWkkQEwOPkFsyal6Uq3RvAGsBbLCfZV",
+            "added": true
+          },
+          {
+            "text": "QASkills — Pytest Best Practices 2026: conftest.py, fixture scopes, parametrize, markers, pyproject.toml config, pytest-cov/xdist/mock plugins",
+            "url": "https://qaskills.sh/blog/pytest-best-practices-2026",
+            "added": true
+          },
+          {
+            "text": "pytest official docs — How to use fixtures: scope rules (function/session/module/class), the mechanics behind dependency injection in tests",
+            "url": "https://docs.pytest.org/en/stable/how-to/fixtures.html",
+            "added": true
+          }
+        ]
+      },
+      {
+        "subtitle": "Python — Linting, Formatting & Clean Code ⭐ new (LSEG JD: \"linters\" + \"readable, maintainable code\" named explicitly)",
+        "items": [
+          {
+            "text": "Real Python — Ruff: A Modern Python Linter: drop-in replacement for Flake8/isort/Black, single-tool linting+formatting workflow",
+            "url": "https://realpython.com/ruff-python/",
+            "added": true
+          },
+          {
+            "text": "Techoral — Python Ruff and Black: Linting and Formatting Setup: pyproject.toml config, pre-commit hooks, VS Code integration, CI enforcement",
+            "url": "https://techoral.com/python/python-ruff-black-linting.html",
+            "added": true
+          },
+          {
+            "text": "pydevtools — Ruff: A Complete Guide: what it replaces (flake8+Black+isort+pyupgrade+pydocstyle), 900+ rules, why teams consolidate onto it",
+            "url": "https://pydevtools.com/handbook/explanation/ruff-complete-guide/",
+            "added": true
           }
         ]
       }
@@ -2119,7 +2244,7 @@ window.VAULT_CATEGORIES = [
             "url": "https://www.hellointerview.com/community/questions/key-value-store/cm8gcrkz800b7epmpcj06fkwk"
           },
           {
-            "text": "Ad Click Aggregator — Hello Interview video, watch in full , 60 min",
+            "text": "Ad Click Aggregator — Hello Interview video, watch in full, closest to Prism, 60 min",
             "url": "https://www.youtube.com/watch?v=Zcv_899yqhI"
           },
           {
@@ -2155,7 +2280,7 @@ window.VAULT_CATEGORIES = [
             "added": true
           },
           {
-            "text": "OLAP engine choice — Pinot vs Druid vs ClickHouse comparison, 2026, 25 min",
+            "text": "OLAP engine choice for Prism's shape — Pinot vs Druid vs ClickHouse comparison, 2026, 25 min",
             "url": "https://startree.ai/resources/a-tale-of-three-real-time-olap-databases/",
             "added": true
           },
@@ -2247,7 +2372,7 @@ window.VAULT_CATEGORIES = [
             "url": "https://docs.aws.amazon.com/whitepapers/latest/saas-tenant-isolation-strategies/the-bridge-model.html"
           },
           {
-            "text": "Multi-tenant analytics architecture guide — shared-schema vs schema-per-tenant, 25 min",
+            "text": "Multi-tenant analytics architecture guide — shared-schema vs schema-per-tenant, directly applies to Prism serving multiple brand clients, 25 min",
             "url": "https://www.usedatabrain.com/blog/multi-tenant-analytics",
             "added": true
           },
