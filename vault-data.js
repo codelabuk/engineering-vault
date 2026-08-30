@@ -95,7 +95,7 @@ window.VAULT_CATEGORIES = [
         ]
       },
       {
-        "subtitle": "OLTP Relational Database Design — ER modeling, normalization, Postgres at scale ⭐ new (Aurora PostgreSQL interview focus, LSEG/FTSE Russell JD)",
+        "subtitle": "OLTP Relational Database Design — ER modeling, normalization, Postgres at scale ",
         "items": [
           {
             "text": "freeCodeCamp — Learn Relational Database Design (6-hr full course): SQL fundamentals, ER modeling, normalization 1NF-BCNF, data types/constraints, indexing, query optimization; based on Grokking Relational Database Design",
@@ -191,7 +191,7 @@ window.VAULT_CATEGORIES = [
         ]
       },
       {
-        "subtitle": "Python — OOP, decorators, generators, context managers ⭐ Corey Schafer series (LSEG JD: craftsmanship focus)",
+        "subtitle": "Python — OOP, decorators, generators, context managers ⭐ Corey Schafer series (craftsmanship focus)",
         "items": [
           {
             "text": "Corey Schafer — Python OOP 1: Classes and Instances",
@@ -262,7 +262,7 @@ window.VAULT_CATEGORIES = [
         ]
       },
       {
-        "subtitle": "Python — Type Hints & mypy ⭐ new (LSEG JD: \"type hints\" named explicitly in essential bar)",
+        "subtitle": "Python — Type Hints & mypy ⭐ new (\"type hints\" named explicitly in essential bar)",
         "items": [
           {
             "text": "Real Python — Python Type Checking (Guide): full tutorial from basic annotations to Protocol/TypedDict/Generics, with mypy integration",
@@ -287,7 +287,7 @@ window.VAULT_CATEGORIES = [
         ]
       },
       {
-        "subtitle": "Python — pytest ⭐ new (LSEG JD: \"strong pytest discipline\" named explicitly in essential bar)",
+        "subtitle": "Python — pytest ⭐ new (\"strong pytest discipline\" named explicitly in essential bar)",
         "items": [
           {
             "text": "Real Python — pytest Tutorial: Effective Python Testing: fixtures, parametrize, marks, plugins, assertion introspection — the canonical pytest walkthrough",
