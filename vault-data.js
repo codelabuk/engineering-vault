@@ -31,7 +31,7 @@ window.VAULT_CATEGORIES = [
         "subtitle": "HBase internals — HFile, MemStore, WAL, compaction",
         "items": [
           {
-            "text": "MapR — An In-Depth Look at the HBase Architecture (mapr.com is dead post-HPE acquisition; this is the same article as a PDF mirror)",
+            "text": "MapR — An In-Depth Look at the HBase Architecture ",
             "url": "https://aditipaulsite.wordpress.com/wp-content/uploads/2019/02/hbase-architectural-components.pdf"
           },
           {
@@ -88,7 +88,7 @@ window.VAULT_CATEGORIES = [
             "added": true
           },
           {
-            "text": "Video — How Discord Stores Trillions of Messages, Hussein Nasser deep dive — Cassandra hot partitions, GC pauses, LSM trees, why they moved to ScyllaDB; directly relevant given your HBase/LSM background",
+            "text": "Video — How Discord Stores Trillions of Messages, Hussein Nasser deep dive — Cassandra hot partitions, GC pauses, LSM trees, why they moved to ScyllaDB",
             "url": "https://youtu.be/xynXjChKkJc",
             "added": true
           }
@@ -108,22 +108,22 @@ window.VAULT_CATEGORIES = [
             "added": true
           },
           {
-            "text": "Database Design: ER Modeling & Normalization (1NF-3NF) — focused walkthrough, shorter than the freeCodeCamp course if time is tight",
+            "text": "Database Design: ER Modeling & Normalization (1NF-3NF) — focused walkthrough",
             "url": "https://www.youtube.com/watch?v=bcU4f2RVjJU",
             "added": true
           },
           {
-            "text": "Oracle University — Data Modelling and Design Full Course (free): ER modeling and normalization, vendor-produced but conceptually vendor-neutral",
+            "text": "Oracle University — Data Modelling and Design Full Course (free): ER modeling and normalization",
             "url": "https://www.youtube.com/watch?v=ZC7H3hkogyo",
             "added": true
           },
           {
-            "text": "Database Design & Data Modeling Full Course [2026] — newest (June 2026), broader scope including some warehouse framing",
+            "text": "Database Design & Data Modeling Full Course ",
             "url": "https://www.youtube.com/watch?v=_jf7KZqne-8",
             "added": true
           },
           {
-            "text": "Sharding in System Design Interviews w/ Meta Staff Engineer — read-replica to sharding progression, practitioner-level, free",
+            "text": "Sharding in System Design Interviews w/ Meta Staff Engineer — read-replica to sharding progression, practitioner-level",
             "url": "https://www.youtube.com/watch?v=L521gizea4s",
             "added": true
           },
@@ -317,7 +317,7 @@ window.VAULT_CATEGORIES = [
         ]
       },
       {
-        "subtitle": "Python — Linting, Formatting & Clean Code ⭐ new (LSEG JD: \"linters\" + \"readable, maintainable code\" named explicitly)",
+        "subtitle": "Python — Linting, Formatting & Clean Code ",
         "items": [
           {
             "text": "Real Python — Ruff: A Modern Python Linter: drop-in replacement for Flake8/isort/Black, single-tool linting+formatting workflow",
@@ -373,17 +373,17 @@ window.VAULT_CATEGORIES = [
             "url": "https://datavidhya.com/learn/de-system-design/technology-deep-dives/flink-deep-dive/"
           },
           {
-            "text": "Jordan Has No Life — same channel, useful here too for stream-processing-adjacent distributed systems depth (not Kafka/Flink-specific playlists, but the consensus/replication grounding transfers directly)",
+            "text": "Jordan Has No Life — same channel, for stream-processing-adjacent distributed systems depth ",
             "url": "https://www.youtube.com/@jordanhasnolife5163/playlists",
             "added": true
           },
           {
-            "text": "Confluent Developer — Apache Kafka Internal Architecture ⭐ taught by Jun Rao, Kafka co-founder; this is the single highest-value course here given Confluent is one of your target companies",
+            "text": "Confluent Developer — Apache Kafka Internal Architecture ⭐ taught by Jun Rao, Kafka co-founder",
             "url": "https://developer.confluent.io/courses/architecture/get-started/",
             "added": true
           },
           {
-            "text": "Confluent Developer — Mastering Production Data Streaming Systems with Kafka; moving from PoC to production-hardened, GitOps for streaming platforms — maps directly onto your actual production Kafka experience",
+            "text": "Confluent Developer — Mastering Production Data Streaming Systems with Kafka; moving from PoC to production-hardened, GitOps for streaming platforms",
             "url": "https://developer.confluent.io/courses/data-streaming-systems/overview/",
             "added": true
           }
@@ -449,14 +449,14 @@ window.VAULT_CATEGORIES = [
             "url": "https://www.youtube.com/watch?v=1z3pJz02B4M"
           },
           {
-            "text": "Confluent Developer — Apache Kafka 101 ⭐ the official fundamentals course; useful less for new concepts and more for interview-ready articulation of what you already run in production",
+            "text": "Confluent Developer — Apache Kafka 101 ⭐ the official fundamentals course",
             "url": "https://developer.confluent.io/courses/apache-kafka/events/",
             "added": true
           }
         ]
       },
       {
-        "subtitle": "Kafka Streams — KStream, KTable, state stores (RocksDB), windowing ⭐ GAP",
+        "subtitle": "Kafka Streams — KStream, KTable, state stores (RocksDB), windowing ⭐ ",
         "items": [
           {
             "text": "Kafka Streams developer guide ⭐ — kafka.apache.org",
@@ -515,7 +515,7 @@ window.VAULT_CATEGORIES = [
             "url": "https://www.youtube.com/watch?v=_x_p7v0dq3k"
           },
           {
-            "text": "Confluent Developer — Kafka Streams 101 ⭐ directly closes the GAP flagged here; KStream/KTable, state stores, windowing, all hands-on",
+            "text": "Confluent Developer — Kafka Streams 101 ⭐ KStream/KTable, state stores, windowing, all hands-on",
             "url": "https://developer.confluent.io/courses/kafka-streams/get-started/",
             "added": true
           }
@@ -594,7 +594,7 @@ window.VAULT_CATEGORIES = [
             "url": "https://nightlies.apache.org/flink/flink-docs-stable/docs/concepts/runtime/"
           },
           {
-            "text": "Flink 101: Introduction — Confluent ⭐ START HERE",
+            "text": "Flink 101: Introduction — Confluent ⭐",
             "url": "https://www.youtube.com/watch?v=3cg5dABA6mo"
           },
           {
@@ -2244,7 +2244,7 @@ window.VAULT_CATEGORIES = [
             "url": "https://www.hellointerview.com/community/questions/key-value-store/cm8gcrkz800b7epmpcj06fkwk"
           },
           {
-            "text": "Ad Click Aggregator — Hello Interview video, watch in full, closest to Prism, 60 min",
+            "text": "Ad Click Aggregator — Hello Interview video, watch in full 60 min",
             "url": "https://www.youtube.com/watch?v=Zcv_899yqhI"
           },
           {
@@ -2280,7 +2280,7 @@ window.VAULT_CATEGORIES = [
             "added": true
           },
           {
-            "text": "OLAP engine choice for Prism's shape — Pinot vs Druid vs ClickHouse comparison, 2026, 25 min",
+            "text": "OLAP engine choice — Pinot vs Druid vs ClickHouse comparison, 2026, 25 min",
             "url": "https://startree.ai/resources/a-tale-of-three-real-time-olap-databases/",
             "added": true
           },
@@ -2335,11 +2335,11 @@ window.VAULT_CATEGORIES = [
         "subtitle": "Notification & Job Scheduler Patterns",
         "items": [
           {
-            "text": "Notification Service — skim, 20 min",
+            "text": "Notification Service ",
             "url": "https://algomaster.io/learn/system-design-interviews/design-notification-service"
           },
           {
-            "text": "Distributed Job Scheduler — skim, 20 min",
+            "text": "Distributed Job Scheduler ",
             "url": "https://blog.algomaster.io/p/design-a-distributed-job-scheduler"
           },
           {
@@ -2372,7 +2372,7 @@ window.VAULT_CATEGORIES = [
             "url": "https://docs.aws.amazon.com/whitepapers/latest/saas-tenant-isolation-strategies/the-bridge-model.html"
           },
           {
-            "text": "Multi-tenant analytics architecture guide — shared-schema vs schema-per-tenant, directly applies to Prism serving multiple brand clients, 25 min",
+            "text": "Multi-tenant analytics architecture guide — shared-schema vs schema-per-tenant",
             "url": "https://www.usedatabrain.com/blog/multi-tenant-analytics",
             "added": true
           },
