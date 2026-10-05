@@ -177,18 +177,32 @@ function catChecked(cat) {
   return n;
 }
 
-function goToCategory(key) {
-  state.view = key;
-  state.topicFilter = '';
-  state.catSearch = '';
-  state.catTypeFilter = 'all';
-  window.scrollTo(0, 0);
+// URL routing: '#/<categoryKey>' opens a category, no hash shows the grid.
+// Keeps category views linkable and stable across refreshes on GitHub Pages.
+function viewFromHash() {
+  var m = location.hash.match(/^#\/?(.+)$/);
+  var key = m ? decodeURIComponent(m[1]) : '';
+  return categories.some(function (c) { return c.key === key; }) ? key : 'grid';
+}
+function applyRoute() {
+  var view = viewFromHash();
+  if (view !== state.view) {
+    state.view = view;
+    state.topicFilter = '';
+    state.catSearch = '';
+    state.catTypeFilter = 'all';
+    state.topicOpen = false;
+    document.getElementById('cat-search-input').value = '';
+    window.scrollTo(0, 0);
+  }
   render();
 }
+function goToCategory(key) {
+  location.hash = '#/' + encodeURIComponent(key);
+}
 function goBack() {
-  state.view = 'grid';
-  window.scrollTo(0, 0);
-  render();
+  history.pushState(null, '', location.pathname + location.search);
+  applyRoute();
 }
 
 function clearFilters() {
@@ -282,11 +296,11 @@ function renderGrid() {
       });
     }
     if (matches) matchCount++;
-    var tile = document.createElement('div');
-    tile.style.cssText = 'display:flex;flex-direction:column;padding:24px;border-right:2px solid rgba(32,30,29,0.4);border-bottom:2px solid rgba(32,30,29,0.4);cursor:pointer;background:#f3f2f2;opacity:' + (filtersActive && !matches ? '0.35' : '1') + ';';
+    var tile = document.createElement('a');
+    tile.href = '#/' + encodeURIComponent(cat.key);
+    tile.style.cssText = 'color:inherit;text-decoration:none;display:flex;flex-direction:column;padding:24px;border-right:2px solid rgba(32,30,29,0.4);border-bottom:2px solid rgba(32,30,29,0.4);cursor:pointer;background:#f3f2f2;opacity:' + (filtersActive && !matches ? '0.35' : '1') + ';';
     tile.onmouseenter = function () { tile.style.background = '#eae9e9'; };
     tile.onmouseleave = function () { tile.style.background = '#f3f2f2'; };
-    tile.onclick = function () { goToCategory(cat.key); };
     tile.innerHTML =
       '<div style="display:flex;justify-content:space-between;align-items:flex-start;">' +
         '<div style="font-weight:800;font-size:24px;color:#ec3013;">' + String(idx + 1).padStart(2, '0') + '</div>' +
@@ -400,8 +414,9 @@ document.addEventListener('click', function (e) {
     state.topicOpen = false; render();
   }
 });
+window.addEventListener('hashchange', applyRoute);
 
-render();
+applyRoute();
 </script>
 </body>
 </html>
