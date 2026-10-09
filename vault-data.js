@@ -731,6 +731,14 @@ window.VAULT_CATEGORIES = [
           {
             "text": "Upsolver — Parquet, ORC, and Avro: The File Format Fundamentals of Big Data",
             "url": "https://www.upsolver.com/blog/the-file-format-fundamentals-of-big-data"
+          },
+          {
+            "text": "IBM Community (Ghareeb Falazi) — Open data formats deep dive",
+            "url": "https://community.ibm.com/community/user/blogs/ghareeb-falazi/2026/05/04/opendata-formats-deep-dive"
+          },
+          {
+            "text": "Medium (Ganesh NV) — Avro, Parquet and ORC file format comparison",
+            "url": "https://medium.com/@ganeshnv0/avro-parquet-and-orc-file-format-comparison-ff776d375c7e"
           }
         ]
       },
