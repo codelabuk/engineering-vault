@@ -2696,6 +2696,14 @@ window.VAULT_CATEGORIES = [
             "url": "https://mode.com/sql-tutorial/sql-window-functions/"
           },
           {
+            "text": "SQL Academy — interactive SQL guide (basics → joins, subqueries, window functions)",
+            "url": "https://sql-academy.org/en/guide"
+          },
+          {
+            "text": "DataLemur — free SQL tutorial (basics → intermediate → advanced, with practice in the browser)",
+            "url": "https://datalemur.com/sql-tutorial"
+          },
+          {
             "text": "SQL frame clauses — PostgreSQL docs",
             "url": "https://www.postgresql.org/docs/current/tutorial-window.html"
           },
@@ -3140,6 +3148,10 @@ window.VAULT_CATEGORIES = [
           {
             "text": "LeetCode SQL problems — filter by Database tag",
             "url": "https://leetcode.com/problemset/?topicSlugs=database"
+          },
+          {
+            "text": "DataLemur — SQL interview questions from real companies (free tier, in-browser editor)",
+            "url": "https://datalemur.com/questions"
           }
         ]
       },
